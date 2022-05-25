@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/*--------------------------------------------------------------
+# Navbar
+--------------------------------------------------------------*/
+#navbar{
+    background-color: #241E1B;
+}
+.navbar-brand {
+    font-size:  2.25rem !important;
+    margin: 0;
+    line-height: 1;
+    font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+    color: white !important;
+    cursor: pointer;
+  }
+  .navbar-nav{
+    margin-top: 12px;
+	padding-right:10px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.navbar-toggler{
+    background-color: white !important;
+}
+.order-now {
+    background: #ffb03b;
+    color: #fff;
+    border-radius: 50px;
+    margin: 0 0 0 20px;
+    padding: 10px 25px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+
+  }
+  .order-now:hover {
+    background: #ffa012;
+    color: #fff;
+  }
+  /*--------------------------------------------------------------
+# Hero banner
+--------------------------------------------------------------*/
+
+  .bg-image{
+    
+    background-position: fixed;
+    background-size: cover;
+    height:60vh;
+
+  }
+  .banner-text{
+    color:white;
+    font-family:"Playfair Display", serif;
+    text-align: center;
+    font-size: 68px ;
+  }
+  .banner-text h1{
+    font-size: 68px;
+    font-weight: bold;
+    padding-top: 115px;
+  }
+  /*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact .info-wrap {
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  .contact .info {
+    background: #fff;
+  }
+  .hr-contact {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    color:#ffb03b;
+    margin: 30px 0px ;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .hr-contact::before,
+  .hr-contact::after {
+    content: "";
+    flex-grow: 1;
+    background:black;
+    height: 3px;
+    font-size: 0px;
+    line-height: 4px;
+    margin: 0px 8px;
+  }
+  .contact .info i {
+    font-size: 20px;
+    color: #ffb03b;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #fff6e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+  .contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #433f39;
+    font-family: "Poppins", sans-serif;
+  }
+  .contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #7a7368;
+  }
+  .contact .info:hover i {
+    background: #ffb03b;
+    color: #fff;
+  }
+  .contact .form { 
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+    padding: 30px;
+    background: #fff;
+  }
+  .contact .form-group {
+    padding-bottom: 8px;
+  }
+  
+  .contact .form input,.form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+  }
+  .contact .form input {
+    height: 44px;
+  }
+  .contact .form textarea {
+    padding: 10px 12px;
+  }
+  .text-center button[type=submit] {
+    background: #ffb03b;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+
+  }
+  .contact .form button[type=submit]:hover {
+    background: #ffa012;
+  }
+  
+  /*--------------------------------------------------------------
+  
+/* footer */
+#footer {
+    background:#090110;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
+  }
+  .links ul{
+    list-style-type: none;
+    display: inline-flex;
+    padding: 15px;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    }
+    
+  .links li a{
+      color: white;
+      transition: color .2s;
+      text-align: center;
+      text-decoration: none;
+    }
+  .links li a:hover{
+        text-decoration:none;
+     }
+
+  .footer-para{
+      color:white;
+      margin-top: 10px;
+    }
+
+    @media (max-width: 768px) {
+
+      .footer{
+        margin-right: auto;
+        margin-left: auto;
+      }
+    }
+    
+  .copyright {
+      margin: 0 0 5px 0;
+      background-color: #000000;
+      width:100%;
+      text-align: center;
+      color: white;
+    }
